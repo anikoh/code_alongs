@@ -2,7 +2,8 @@
 var currentDate = new Date();
 var currentYear = currentDate.getFullYear();
 
-var currentTest = new Date().getFullYear();
+// currentTest = new Date().getFullYear();
+
 
 if (currentYear > 2015){
   console.log("Greetings from the future!");
